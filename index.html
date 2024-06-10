@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <title>TH輸了...</title>
+    <script src="clock.js"></script>
+</head>
+<body style="overflow: auto;">
+    <div id="clock" class="clock"></div>
+    
+    <div class="video-background">
+        <video autoplay loop id="bg-video">
+            <source src="video/background.mp4" type="video/mp4">
+            您的瀏覽器不支援HTML5影片
+        </video>
+    </div>
+    <div class="content">
+        <header>
+            <h1>TH輸了</h1>
+            <p>班級魚:沒事的 我是最強的</p>
+        </header>
+        <img src="images/head.png" class="about-me-avatar" alt="Avatar">
+        <section id="extra-content">
+            <div class="grid-container">
+                <div class="grid-item1">
+                    <div class="item-content">
+                        <h2>關於我</h2>
+                        <p>就讀虎尾科技大學資訊工程科五專部的普通人</p>
+                        <img src="gif/azusa.gif" alt="Your GIF">
+                    </div>
+                </div>
+                <div class="grid-item2">
+                    <div class="item-content">
+                        <h2>興趣愛好</h2>
+                        <p>玩些遊戲,看小說跟動漫,聽歌,反正我就是個宅男:D</p>
+                    </div>
+                </div>
+                <div class="grid-item3">
+                    <div class="item-content">
+                        <h2>專長</h2>
+                        <p>專長是...什麼</p>
+                        <img src="gif/sadge.gif" alt="Your GIF">
+                    </div>
+                </div>
+                <div class="grid-item4">
+                    <div class="item-content">
+                        <h2>聯繫方式</h2>
+                        <p>社交平台基本沒啥在用,很常用discord,有興趣的ID:yuyun_uwu</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="about-me-wrapper">
+            <div class="about-me-section">
+                <div class="about-me-content">
+                    <h2>關於我</h2>
+                    <p>這裡是你的簡介內容...</p>
+                </div>
+            </div>
+        </div>      
+    </div>
+    <button id="sound-toggle" onclick="toggleSound()">撥放音樂</button>
+    <audio id="bg-audio" loop autoplay>
+        <source src="audio/bgm.mp3" type="audio/mpeg">
+        您的瀏覽器不支援HTML5音頻
+    </audio>
+    <!-- 新增的三角形容器 -->
+    <div id="click-effect-container"></div>
+    <div id="mouse-trail"></div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="javascript/clock.js"></script>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
